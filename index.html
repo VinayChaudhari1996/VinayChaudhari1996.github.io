@@ -1,1022 +1,197 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en" >
+
 <head>
+  <meta charset="UTF-8">
+  <title>Responsive News Card Slider</title>
+  <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-   <!--- basic page needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Kards</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="stylesheet" href="css/style.css">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
-
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
-
-   <!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-
+  
 </head>
 
-<body id="top">
+<body>
 
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="row">
+  <div class="wrapper">
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+  <div class="background">
+    <img src="img/computer-device-electronics-872958.jpg" alt="">
+  </div>
+  <div class="item-bg"></div>
 
-	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
-		      </div>		      
+  <div class="news-slider">
+    <div class="news-slider__wrp swiper-wrapper">
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          <div class="news-date"><span class="news-date__txt">More about me</span></div>
+          <div class="news__title">Technology Enthusiastic </div>
+          <p class="news__txt">Im technosavy kind of guy having deep passion and love about trending technologies and my mom says " You are born with Bibliophile"</p>
+          <p class="news__txt">I like to explore new things in Big data, Machine Learning and Cutting edge technologies ! </p>
+          <div class="news__img">
+            <img src="img/adult-app-developer-business-1181244.jpg" alt="news">
+          </div>
+        </a>
+      </div>
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-							
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          <div class="news-date"><span class="news-date__txt"><strong>2 </strong></span></div>
+          <div class="news__title"> What I Learn ? </div>
+          <p class="news__txt">I have hands on experience in Apache Spark framework with <strong>python (pyspark) &amp; Big Data technology like Hadoop and Ecosystem </strong></p>
+          <p class="news__txt">I did various data processing projects And use transformation techniques on structured data &amp; Unstructured Data</p>
+          <p class="news__txt">. <br>
+          </p>
+          <div class="news__img">
+            <img src="img/Haddop_Spark.jpg" alt="news">
+          </div>
+        </a>
+      </div>
 
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          <div class="news-date"><span class="news-date__txt"><strong>3</strong></span></div>
+          <div class="news__title"> Tools and Technology</div>
+          <p class="news__txt">I have familar with <strong>Python 3.0</strong> and functional languages with Big Data development.</p>
+          <p class="news__txt">I have sound knowledge of</p>
+          <p class="news__txt"><strong> SQL | SQOOP </strong></p>
+          <p class="news__txt"><strong>Hive |&nbsp;Pig</strong></p>
+          <p class="news__txt"><strong>Zookeeper | Yarn</strong></p>
+          <div class="news__img">
+            <img src="img/ai-blur-codes-577585.jpg" alt="news">
+          </div>
+        </a>
+      </div>
 
-   	<div class="intro-overlay"></div>	
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          
+          <div class="news__title"> UI/UX Design </div>
+        <p class="news__txt">I have good knowlege of User Interface Design ,User Experience Design &amp; Human psychology.</p>
+          <p class="news__txt">I have design various application and websites <strong>interfaces, wireframing, workflows</strong></p>
+        <p class="news__txt"> In this User experience deisgn I have learn diffrent types of approches in<strong>&nbsp;</strong></p>
+<p class="news__txt"><strong>User centered Design and User interaction Design.</strong></p>
+          <div class="news__img">
+            <img src="img/ui-ux-design-1466681938.jpg" alt="news">
+          </div>
+        </a>
+      </div>
 
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-	   			<h5>Hello, World.</h5>
-   			  <h1>I'm Vinay Chaudhari</h1>
-   			  <h5><span>bigdata Developer</span>&nbsp;<strong>|</strong>&nbsp;<span>UI/UX Designer</span></h5>
-   			  <a class="button stroke smoothscroll div" href="#about" title="">More About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-   	<ul class="intro-social">        
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-behance"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      </ul> <!-- /intro-social -->      	
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">  
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
-
-   			<div class="intro-info">
-
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
-
-   				<p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
-   			</div>   			
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-
-   		<div class="col-six tab-full">
-
-		  <h3>Profile</h3>
-   			<p>Having hands on experience in Apache Spark framework with python (pyspark) and Big data technology like hadoop and ecosystem .experience in data processing data,transformation techniques using hive,sqoop,sql etc. &nbsp;</p>
-   			<ul class="info-list">
-   			  <li> <strong>Fullname:</strong> <span>Vinay Vishnu Chaudhari</span> </li>
-   			  <li> <strong>Birth Date:</strong> <span>September 14, 1996</span> </li>
-   			  <li> <strong>Website:</strong> <span>www.vinaychaudhari.com</span> </li>
-   			  <li> <strong>Email:</strong> <span>vinaychaudhari1996@gmail.com</span> </li>
-		  </ul> 
-   			<!-- /info-list -->
-
-   		</div>
-
-	  <div class="col-six tab-full">
-
-   			<h3>Skills</h3>
-	    <h3 style="color: deepskyblue">BIG DATA TECHNOLOGIES</h3>
-		  <ul class="skill-bars">
-			     <li>
-			   	   <div class="progress percent90"><span>90%</span></div>
-		   	      <strong>apache spark</strong></li>
-			     <li>
-			   	   <div class="progress percent85"><span>85%</span></div>
-			   	  <strong>python </strong></li>
-				  
-				  <li>
-					  <div class="progress percent85"><span>90%</span></div>
-					  <strong>Sqoop</strong></li>
-				
-				
-			  <li>
-					  <div class="progress percent85"><span>85</span></div>
-					  <strong>SQL</strong></li>
-				
-				
-			  <li>
-					  <div class="progress percent80"><span>80%</span></div>
-					  <strong>HIVE</strong></li>
-					
-				
-			<li>
-						<div class="progress percent82"><span>82%</span></div>
-					  <strong>Hadoop | hdfs</strong></li>
-			
-			
-			<li>
-						<div class="progress percent72"><span>75%</span></div>
-					  <strong>Yarn</strong></li>
-			
-			
-			  <li>
-					  <div class="progress percent60"><span>60%</span></div>
-					  <strong>pig</strong></li>
-				
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          <div class="news-date"><span class="news-date__txt"><strong>4</strong></span></div>
+          <div class="news__title"> Tools and Softwares</div>
+          <p class="news__txt">I have hands of experience in making habbit forming producs and prototypes.</p>
+          <p class="news__txt">I learn various design softwares and tools like,</p>
+          <p class="news__txt"><strong> Adobe XD </strong></p>
+          <p class="news__txt"><strong>Balsamiq Mockups</strong><br>
+          </p>
+          <p class="news__txt"><strong>Adobe Illustrator | Figma </strong></p>
+          
+          
+          <div class="news__img">
+            <img src="img/2018-05-14-adobe-xd-logo.png" alt="news">
+          </div>
+        </a>
+      </div>
+		
+		
+		
+		<div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          <div class="news-date"><strong>Educational Details</strong><br>
+          </div>
+          <div class="news__title"> Graduation </div>
+          <p class="news__txt"><strong>BE (Information Technology )</strong></p>
+          <p class="news__txt">2014 -2018</p>
+			<p class="news__txt">Pune University</p>
+          <p class="news__txt"><strong>78 %</strong></p>
 			
 			
 			
-		  </ul>
-				  </ul>
-				
-				
-				  </ul>
-				  </ul> <!-- /skill-bars -->
 			
-			
-					
-					
-		  </ul> <!-- /skill-bars -->
-			
-			
+          
+          </div>
+          
+</a>
+      </div>
 
-   		</div>
+	  
 
-   	</div>
-</div>
-	
-	
-   	</div>
+      <div class="news-slider__item swiper-slide">
+        <a href="#" class="news__item">
+          
+          <div class="news__title">
+            <h6><strong>Hello World !</strong>&nbsp;</h6>
+            <h1>I'm Vinay Chaudhari </h1>
+          </div>
+          <p class="news__txt">Bigdata Developer | Ui/Ux Designer </p>
+          <p class="news__txt">&nbsp;</p>
+</a>
+      </div>
+    </div>
+
+    <div class="news-slider__ctr">
+
+      <div class="news-slider__arrows">
+        <button class="news-slider__arrow news-slider-prev">
+          <span class="icon-font">
+            <svg class="icon icon-arrow-left"><use xlink:href="#icon-arrow-left"></use></svg>
+          </span>
+        </button>
+        <button class="news-slider__arrow news-slider-next">
+          <span class="icon-font">
+            <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+          </span>
+        </button>
+      </div>
+
+      <div class="news-slider__pagination"></div>
+
+    </div>
+
+  </div>
+
 </div>
 	
 	
 	
-<div class="row about-content">
-
-  <div class="col-six tab-full">
-    <h3>what i learn ?</h3>
-    <p>Making several &nbsp;projects based on of Prototyping of web/applications. study the user centric approch and phycology of user interaction about products and services . Reserach &nbsp;various design trends and make ideas in digital form using great tools and techniques called <strong>" PROTOTYPING ".</strong></p>
-    <p>Hands on experience of Adobe XD , Figma ,Balsamiq mockups and more s/w and tools.</p>
-    </section>
 	
 	
 	
-   			
-	   
-	    
- 
-   		
-   			
-  </div>   		
-</div>
-	</section>
-    
-
-
-<!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Resume</h5>
-   			<h1>More of my credentials.</h1>
-   			<p class="lead">&nbsp;</p>
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Work Experience</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-					
-				  <div class="timeline-header">
-   				    <h3>Big Data Developer</h3>
-	   				  <p>2017 - 2018</p>
-					  </div>
-
-	   				<div class="timeline-content">
-	   				  <h4>Internship</h4>
-	   				  <h4 style="color:deepskyblue">Dicovering the integrity of customers using Big data technologies and tools like Apache spark , Mlib , Dataframes , Rdd , Hadoop.</h4>
-	   				  <p>In this internship I learn about various open source technologies and tools and explore the importance of them in processing of Big data , analysis and hidden patterns of for predictions ! </p>
-	   				</div>
-
-	   			
-
-	   			
-					
-					
-					<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>UI/UX Designer and Developer</h3>
-	   				  <p>2016 - 2017</p>
-	   				</div>
-					
-					
-					<div class="timeline-block">
-
-	   				<div class="timeline-content">
-	   				  <h4>Freelancer</h4>
-	   				  <p>Hands on experience in Prototyping , wireframing and user centric designs. Good knowlege of Balsamiq mockup , Adobe XD and Diffrent UX designs tools and reaserach in diffrent design sector in product design and making habbit forming products.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>FrontEnd Designer </h3>
-	   				  <h3>| UI Designer</h3>
-	   				  <p>2015-2016 </p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   				  <h4>Freelancer</h4>
-	   				  <p>Having good experience in user interface design and modern trends in interaction design. Working on diffrent projects based on web and apps.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>Graphics Designer</h3>
-	   				  <p>2014-2015 </p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   				  <h4>Freelancer</h4>
-	   				  <p>Master in creativity involves digital arts and tools like Adobe illustrator, Adobe Experience Design ,Adobe Photoshop. Making lots of unique &nbsp;design projects and concepts in vector art and raster art in specific time bound period. </p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-   	
-   	<div class="row resume-timeline">
-
-   		<div class="col-twelve resume-header">
-
-   			<h2>Education</h2>
-
-   		</div> <!-- /resume-header -->
-
-   		<div class="col-twelve">
-
-   			<div class="timeline-wrap">
-
-   				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>Graduation</h3>
-	   				  <p>2014 - 2018</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   				  <h3>DPCOE College Of Engineering ,Pune</h3>
-	   				  <h6 style="color: grey">BE (INFORMATION TECHNOLGY) : 78%</h6>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>Junior College</h3>
-	   				  <p>2012 - 2014</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   				  <h3>SSMM COLLEGE , </h3>
-	   				  <h6 style="color: grey">12TH (SCIENCE) : 81%</h6>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   				  <h3>High School</h3>
-	   				  <p>2011 - 2012</p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   				  <h3>SGS HIgh School </h3>
-	   				  <h6 style="color: grey">10TH : 86%</h6>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
-   			</div> <!-- /timeline-wrap -->   			
-
-   		</div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /resume-timeline -->
-		
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Portfolio</h5>
-   			<h1>Check Out Some of My Works.</h1>
-
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro--> 
-
-   	<div class="row portfolio-content">
-
-   		<div class="col-twelve">
-
-   			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Liberty</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Graphic Design
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div> <!-- /folio-item -->
-
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-	               	<a href="#modal-02" class="overlay">              		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
-	                  <a href="#modal-03" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Clouds</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Design
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
-	                  <a href="#modal-04" class="overlay">                  	                 
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Beetle</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>  	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->     
-
-	        		<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-	                  <a href="#modal-05" class="overlay">             		                  
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Web Development
-		     					      </span>		     		
-		     					   </div> 	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->
-
-	            <div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                  <a href="#modal-06" class="overlay">
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Salad</h3>	     					    
-		     					    	<span class="folio-types">
-		     					       	  Branding
-		     					      </span>		     		
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>
-	        		</div> <!-- /folio-item -->   
-
-	            <!-- modal popups - begin
-	            ============================================================= -->
-	            <div id="modal-01" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Liberty</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Web Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-01 -->
-
-				   <div id="modal-02" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Shutterbug</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Web Design</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-02 -->
-
-				   <div id="modal-03" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Clouds</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Web Design</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-03 -->
-
-				   <div id="modal-04" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Beetle</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Branding</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-04 -->
-
-				   <div id="modal-05" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Lighthouse</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Web Development</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-05 -->
-
-				   <div id="modal-06" class="popup-modal slider mfp-hide">	
-
-				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
-				     	</div>      	
-
-					   <div class="description-box">
-					      <h4>Salad</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Branding</div>			               
-					   </div>
-
-			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
-			         </div>		      
-
-				   </div> <!-- /modal-06 -->
-
-
-				   <!-- modal popups - end
-	            ============================================================= -->
-
-	         </div> <!-- /portfolio-wrapper --> 
-
-   		</div>  <!-- /twelve -->   
-
-   	</div> <!-- /portfolio-content --> 
-		
-	</section> <!-- /portfolio --> 
-
-
-	<!-- CTA Section
-   ================================================== -->
-	<section id="cta" class="grey-section">
-
-   	<div class="row cta-content">
-
-   		<div class="col-twelve section-ads">  
-
-	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
-
-		      <p class="lead">
-		      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-				Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-				<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
-				</p>
-
-				<div class="action">
-			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
-		      </div>		     	
-
-   		</div>
-
-   	</div> <!-- /cta-content -->
-
-   </section> <!-- /cta --> 
-
 	
-	<!-- services Section
-   ================================================== -->
-	<section id="services">
-
-		<div class="overlay"></div>
-
-		<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
-
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row services-content">
-
-   		<div id="owl-slider" class="owl-carousel services-list">
-
-	      	<div class="service">	
-
-	      		<span class="icon"><i class="icon-earth"></i></span>            
-
-	            <div class="service-content">
-	              <h3>Web Design | Growth Hacking</h3>
-	              <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-	         		
-	         	</div> 	         	 
-
-				</div> <!-- /service -->
-
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">
-	              <h3>Big Data Development And Analysis</h3>
-	              <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-
-	            </div>	                          
-
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-	            <div class="service-content">
-	              <h3>UI / UX Design</h3>
-	              <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div> 	            	               
-
-			   </div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-toggles"></i></span>	              
-
-	            <div class="service-content">
-
-	            	<h3>UI/UX Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p> 
-	         		
-	            </div>                
-
-				</div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-image"></i></span>	            
-
-	            <div class="service-content">
-
-	            	<h3>Graphics Design</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-
-	            </div>	               
-
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
-
-	            <div class="service-content">
-
-	            	 <h3>Consultancy</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-	        			
-	            </div>	               
-
-			   </div> <!-- /service -->
-
-	      </div> <!-- /services-list -->
-   		
-   	</div> <!-- /services-content -->
-		
-	</section> <!-- /services -->	
-
-
-	<!-- stats Section
-   ================================================== -->
-	<section id="stats" class="count-up">
-
-		<div class="row">
-			<div class="col-twelve">
-
-				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-pencil-ruler"></i>
-						</div>
-						<h3 class="stat-count">25</h3>
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-
-					</div> <!-- /stat -->					
-			      <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-badge"></i>
-						</div>
-						<h3 class="stat-count">10+</h3>
-						<h5 class="stat-title">sofware used</h5>
-					</div> <!-- /stat -->									
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-light-bulb"></i>
-						</div>
-						<h3 class="stat-count">1/0</h3>
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-cup"></i>
-						</div>
-
-						<h3 class="stat-count">
-							1500
-						</h3>
-
-						<h5 class="stat-title">
-							Coffee Cups
-						</h5>
-
-					</div> <!-- /stat -->
-
-					<div class="bgrid stat">
-
-						<div class="icon-part">
-							<i class="icon-clock"></i>
-						</div>
-						<h3 class="stat-count">7500</h3>
-						<h5 class="stat-title">
-							Hours
-						</h5>
-
-					</div> <!-- /stat -->
-
-				</div> <!-- /stats-list -->
-
-			</div> <!-- /twelve -->
-		</div> <!-- /row -->
-
-	</section> <!-- /stats -->
-
 	
-   <!-- contact
-   ================================================== -->
-	<section id="contact">
+	
+	
+	
+	
+	
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+<svg hidden="hidden">
+  <defs>
+    <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+      <title>arrow-left</title>
+      <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+    </symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+      <title>arrow-right</title>
+      <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+    </symbol>
+  </defs>
+</svg>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
+  
 
-   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
-   		</div> 
-   	</div> <!-- /section-intro -->
-
-   	<div class="row contact-form">
-
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Where to find me</h5>
-   			<p>411-014. &nbsp;Pune</p>
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Email Me At</h5>
-   			<p>Vinaychaudhari1996@gmail.com</p>
-   		</div>
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-phone"></i>
-   			</div>
-
-   			<h5>Call Me At</h5>
-   			<p>Mobile: (+91)8484 9913 28<br>
-		  </p>
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
-	</section> <!-- /contact -->
+    <script  src="js/index.js"></script>
 
 
-   <!-- footer
-   ================================================== -->
 
-   <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-   			  <ul class="footer-social">        
-			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
-			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			   </ul> 
-	      		
-	      </div>
-
-      	<div class="col-six tab-full">
-	      	<div class="copyright">
-		        	<span>© Copyright Kards 2016.</span> 
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
-		         </div>		                  
-	      	</div>
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
-
-      	</div> <!-- /row -->     	
-   </footer>  
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
 
 </body>
 
