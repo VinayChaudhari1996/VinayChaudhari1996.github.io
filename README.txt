@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/JavaScriptJunkie/pen/WgRBxw.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/JavaScriptJunkie/pen/ZMMRRQ.
 
- Responsive slider for featured blog posts. Also can use for other things like card slider. Built with Swiper slider. 
+ I builth another Card Slider for news and blog pages etc with swiper.js. I made sweet animations when mouse hover and slide changes. Also all of them responsive.
