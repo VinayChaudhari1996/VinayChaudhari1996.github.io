@@ -23,26 +23,118 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+	  
+	
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <style> 
+	  
+	  
+	  
+	  @import url('https://fonts.googleapis.com/css?family=Exo+2');
 
-  </head>
+
+
+
+.gooey{
+  background-image: linear-gradient(150deg, #FFFF00 21%, #9999FF 50%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 150px; height: 144px;
+  animation: morph 3s linear infinite; 
+  transform-style: preserve-3d;
+  outline: 3px solid transparent;
+  will-change: border-radius;
+}
+.gooey:before,
+.gooey:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0; top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  box-shadow: 5px 5px 89px rgba(0, 102, 255, 0.21);
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(to right, rgba(51,255,0,0.2), rgba(153,0,255,0.2) );
+}
+
+.gooey:before{
+  animation: morph 3s linear infinite;
+  opacity: .100;
+  animation-duration: 1.5s;
+}
+
+.gooey:after{
+  animation: morph 3s linear infinite;
+  animation-delay: 400ms;
+  opacity: .100;
+  
+  line-height: 120px;
+  text-indent: 21px;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes fadeIn{
+  100%{
+    transform: scale(1.03);
+    opacity: 0;
+  }
+
+	
+	
+ </style>
+	  
+	  
+
+	  
+	  
+	  
 
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">vc</a>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1"> <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a> </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Skills</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,18 +144,43 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid d-block mx-auto shadow-lg rounded-circle mb-1" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Vinay chaudhari</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Big Data Developer | UI/UX Designer </h2>
-      </div>
+        <img class="img-fluid mb-5 d-block mx-auto rounded-circle shadow-lg" src="img/profile.png" alt="">
+        
+		  
+		  
+						<h1 class="textLocation">
+						  Hello World ! 
+						  
+						</h1>
+		  
+  						<h2 class="textLocation">
+  I m Vinay Chaudhari 
+  <span id="autoType">
+  </span>
+</h2>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+  
+
+    <script  src="js/index.js"></script>
+		  
+        
+       
     </header>
+	  
+	
+	  
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
-        <hr class="star-dark mb-5">
+		  
+		  <section> <div class="gooey text-uppercase container" style="color: #000000"> <h1>Project Work </div></section></h1>
+		  
+		 
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -72,7 +189,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid rounded shadow-lg" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -82,7 +199,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid shadow-lg rounded" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -92,7 +209,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid shadow-lg rounded" src="img/portfolio/circus.png" alt="">
+              <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -102,7 +219,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid shadow-lg rounded" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid" src="img/portfolio/game.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -112,7 +229,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid shadow-lg rounded" src="img/portfolio/safe.png" alt="">
+              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -122,7 +239,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid shadow-lg rounded" src="img/portfolio/submarine.png" alt="">
+              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
             </a>
           </div>
         </div>
@@ -150,135 +267,18 @@
         </div>
       </div>
     </section>
-	  
-  <section> </section>
-	  <img src="img/59a42ae734cec70001015931_Computer@2x-p-500.png" class="text-center embed-responsive-item embed-responsive-1by1" alt="computer">
-	  
-	  
 
     <!-- Contact Section -->
-	  <section> </section>
-	  <div> 
-	   <h2 class="text-center text-uppercase text-secondary mb-0">BIG DATA</h2>
-	  <div class="container">
- 		<hr class="star-dark mb-5">
-		  
-		  
-  <p><b>APACHE SPARK</p></b>
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:85%"> 85% </div>
-  </div>
-	  </div>
-	
-	
-  <div class="container">
- 
-  <p><b>HADOOP</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-      90%
-    </div>
-  </div>
-</div>
-
-
- <div class="container">
- 
-  <p><b>SQOOP</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-      80%
-    </div>
-  </div>
-</div>
-	  
-
- <div class="container">
- 
-  <p><b>HIVE</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-      75%
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
- 
-  <p><b>ZOOKEEPER | YARN </p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-      75%
-    </div>
-  </div>
-</div>
-
-
-
-<div class="container">
- 
-  <p><b>SQL</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-      75%
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
- 
-
-
-<section> </section>
-
-  <h2 class="text-center text-uppercase text-secondary mb-0">DATA SCIENCE</h2>
-<hr class="star-dark mb-5">
-  <div class="container">
- 
-  <p><b>STATISTICS</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active shadow-lg rounded" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-      85%
-    </div>
-  </div>
-</div>
-<div class="container">
- 
-  <p><b>MACHINE LEARNING WITH SPARK</p></b> 
-<div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      70%
-  </div>
-  </div>
-</div>
-	  
-
- 
- <div class="container">
- 
-  <p><b>COMPUTER VISION</p></b> 
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      70%
-    </div>
-  </div>
-</div>
-
-
-
-<section> </section>
-<!-- Footer -->
+    <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0 col-lg-4">
+          <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Kharadi , Pune <br>
-              411-014</p>
+            <p class="lead mb-0">2215 John Daniel Drive
+              <br>Clark, MO 65243</p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0 col-lg-8">
+          <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
@@ -301,9 +301,18 @@
                   <i class="fab fa-fw fa-linkedin-in"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fab fa-fw fa-dribbble"></i>
+                </a>
+              </li>
             </ul>
           </div>
-          
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">About Freelancer</h4>
+            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
+              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          </div>
         </div>
       </div>
     </footer>
@@ -334,7 +343,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="mb-5 rounded img-fluid z-depth-2 rounded shadow-lg"  src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -356,7 +365,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5 rounded shadow-lg" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -378,7 +387,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5 rounded shadow-lg" src="img/portfolio/circus.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -400,7 +409,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5 shadow-lg" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -422,7 +431,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5 rounded shadow-lg" src="img/portfolio/safe.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -444,7 +453,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5 rounded shadow-lg" src="img/portfolio/submarine.png" alt="">
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
