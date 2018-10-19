@@ -3,7 +3,7 @@ var datasetIndex = 0;
 var data;
 var pause = 1000;
 var addTime = 500;
-var removeTime = 1000;
+var removeTime = 10000000000;
 var letterIndex = 0;
 var currentInterval;
 
