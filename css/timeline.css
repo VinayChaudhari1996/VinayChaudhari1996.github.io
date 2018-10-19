@@ -16,7 +16,7 @@ TimeLine CSS
 }
 
 section.timeline-outer {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -27,11 +27,11 @@ h1.header {
 /* Timeline */
 
 .timeline {
-  border-left: 2px solid #42A5F5;
-  border-bottom-right-radius: 1px;
-  border-top-right-radius: 1px;
+  border-left: 5px solid #fffae6;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: ##ffff00;
+  color: #333;
   margin: 50px auto;
   letter-spacing: 0.5px;
   position: relative;
@@ -70,9 +70,9 @@ h1.header {
 
 
 .timeline .event:after {
-  box-shadow: 0 0 0 8px #42A5F5;
+  box-shadow: 0 0 0 8px #fff5cc;
   left: -30px;
-  background: #212121;
+  background: #ffe680;
   border-radius: 50%;
   height: 11px;
   width: 11px;
