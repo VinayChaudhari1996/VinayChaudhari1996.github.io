@@ -1,4 +1,4 @@
-var dataset = ["Big Data Developer | UI/UX Designer"];
+var dataset = ["Jr Data Scientist"];
 var datasetIndex = 0;
 var data;
 var pause = 1000;
