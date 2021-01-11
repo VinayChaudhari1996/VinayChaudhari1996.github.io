@@ -1,0 +1,2183 @@
+.mediaViewInfo {
+	--web-view-name: Custom Size – 1;
+	--web-view-id: Custom_Size__1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Custom_Size__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Custom_Size__1_Class {
+	position: absolute;
+	width: 1226px;
+	height: 4040px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Custom Size – 1;
+	--web-view-id: Custom_Size__1;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+.Path_1_Class {
+	fill: rgba(40,41,38,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1226px;
+	height: 4040px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID2021_Class {
+	left: 157px;
+	top: 1262px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.ID2020_Class {
+	left: 157px;
+	top: 1749px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.ID2020_j_Class {
+	left: 576px;
+	top: 1261px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.ID2020_k_Class {
+	left: 576px;
+	top: 1748px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Machine_learnin_Class {
+	left: 157px;
+	top: 1321px;
+	position: absolute;
+	overflow: visible;
+	width: 246px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_drag_and_drop_D_Class {
+	left: 576px;
+	top: 1321px;
+	position: absolute;
+	overflow: visible;
+	width: 369px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_personalised_Re_Class {
+	left: 576px;
+	top: 1808px;
+	position: absolute;
+	overflow: visible;
+	width: 547px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Most_similar_or_Class {
+	left: 157px;
+	top: 1808px;
+	position: absolute;
+	overflow: visible;
+	width: 316px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_EDA_Data_clean_Class {
+	left: 157px;
+	top: 1387px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Developing_applied_AUTOML_node_Class {
+	left: 311px;
+	top: 1387px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Model_selectio_Class {
+	left: 576px;
+	top: 1387px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Model_selectio_s_Class {
+	left: 576px;
+	top: 1874px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Model_selectio_t_Class {
+	left: 157px;
+	top: 1874px;
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Iterateai_Class {
+	opacity: 0.34;
+	left: 214px;
+	top: 1272px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Petsmart_Class {
+	opacity: 0.34;
+	left: 214px;
+	top: 1759px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Iterateai_w_Class {
+	opacity: 0.34;
+	left: 633px;
+	top: 1271px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.CircleK__Class {
+	opacity: 0.34;
+	left: 633px;
+	top: 1758px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Group_10_Class {
+	position: absolute;
+	width: 205px;
+	height: 99px;
+	left: 911px;
+	top: 268px;
+	overflow: visible;
+}
+.Group_3_Class {
+	position: absolute;
+	width: 201px;
+	height: 99px;
+	left: 4px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_2_Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2 {
+	filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	height: 114px;
+	left: 0px;
+	top: 0px;
+}
+.ID2018-2019_Class {
+	left: 15px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Jr_Data_Scientist_Class {
+	left: 15px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Maxgen_Technology_Class {
+	opacity: 0.34;
+	left: 15px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_5_Class {
+	fill: rgba(37,241,79,1);
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Group_9_Class {
+	position: absolute;
+	width: 205px;
+	height: 99px;
+	left: 911px;
+	top: 370px;
+	overflow: visible;
+}
+.Group_4_Class {
+	position: absolute;
+	width: 201px;
+	height: 99px;
+	left: 4px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_2__Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2_ {
+	filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	height: 114px;
+	left: 0px;
+	top: 0px;
+}
+.ID2018_Class {
+	left: 15px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Big_data_and_ML_Intern_Class {
+	left: 15px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Radical_Technology_Class {
+	opacity: 0.34;
+	left: 15px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_6_Class {
+	fill: rgba(37,241,79,1);
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Group_8_Class {
+	position: absolute;
+	width: 205px;
+	height: 99px;
+	left: 911px;
+	top: 472px;
+	overflow: visible;
+}
+.Group_6_Class {
+	position: absolute;
+	width: 201px;
+	height: 99px;
+	left: 4px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_2_be_Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2_be {
+	filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	height: 114px;
+	left: 0px;
+	top: 0px;
+}
+.ID2017_Class {
+	left: 15px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: rgba(255,255,255,1);
+}
+.Datascience__HCD__UX_Class {
+	left: 15px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Freelancer_Consultant__Class {
+	opacity: 0.34;
+	left: 15px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 92px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_12_Class {
+	fill: rgba(37,241,79,1);
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Group_17_Class {
+	position: absolute;
+	width: 335px;
+	height: 64px;
+	left: 104px;
+	top: 1110px;
+	overflow: visible;
+}
+.Rectangle_7_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 64px;
+	left: 195px;
+	top: 0px;
+}
+.Work_Experience_Class {
+	left: 0px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 33px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_8_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_8 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 157px;
+	top: 1557px;
+}
+.Rectangle_9_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_9 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 576px;
+	top: 1556px;
+}
+.Rectangle_10_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_10 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 576px;
+	top: 2024px;
+}
+.Rectangle_11_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_11 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 157px;
+	top: 2024px;
+}
+.Scikit_learn__Class {
+	left: 188px;
+	top: 1570px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Fastai_v1__Class {
+	left: 607px;
+	top: 1569px;
+	position: absolute;
+	overflow: visible;
+	width: 45px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Turicreate_Class {
+	left: 607px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Turicreate_bt_Class {
+	left: 188px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pycaret_Class {
+	left: 262px;
+	top: 1571px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pytorch_Class {
+	left: 681px;
+	top: 1570px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_Class {
+	left: 324px;
+	top: 1570px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_bx_Class {
+	left: 743px;
+	top: 1569px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_by_Class {
+	left: 681px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_bz_Class {
+	left: 262px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_Class {
+	left: 382px;
+	top: 1570px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_b_Class {
+	left: 801px;
+	top: 1569px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_ca_Class {
+	left: 751px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_cb_Class {
+	left: 332px;
+	top: 2037px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Numpy_Class {
+	left: 188px;
+	top: 1587px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Numpy_b_Class {
+	left: 607px;
+	top: 1586px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Numpy_ca_Class {
+	left: 607px;
+	top: 2054px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Numpy_cb_Class {
+	left: 188px;
+	top: 2054px;
+	position: absolute;
+	overflow: visible;
+	width: 37px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_Class {
+	left: 262px;
+	top: 1588px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_b_Class {
+	left: 681px;
+	top: 1587px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_ca_Class {
+	left: 681px;
+	top: 2055px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_cb_Class {
+	left: 262px;
+	top: 2055px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.ML_Class {
+	opacity: 0.05;
+	left: 148px;
+	top: 1193px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 107px;
+	color: rgba(255,255,255,1);
+}
+.Recommendation_Class {
+	opacity: 0.05;
+	left: 157px;
+	top: 1704px;
+	position: absolute;
+	overflow: visible;
+	width: 344px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.Group_11_Class {
+	position: absolute;
+	width: 325px;
+	height: 370px;
+	left: 153px;
+	top: 2159px;
+	overflow: visible;
+}
+.ID2020_cf_Class {
+	left: 4px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Intent_and_Enti_Class {
+	left: 4px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 276px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Data_Preparati_Class {
+	left: 4px;
+	top: 162px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.COCO_Channel_Class {
+	opacity: 0.34;
+	left: 61px;
+	top: 55px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_13_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_13 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 4px;
+	top: 312px;
+}
+.RASA_Class {
+	left: 35px;
+	top: 325px;
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_cl_Class {
+	left: 109px;
+	top: 325px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_cm_Class {
+	left: 179px;
+	top: 325px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.RASA-NLU_Class {
+	left: 35px;
+	top: 342px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_co_Class {
+	left: 109px;
+	top: 343px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Chatbots_Class {
+	opacity: 0.05;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.ID2020_cq_Class {
+	left: 580px;
+	top: 2204px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.ID2018_cr_Class {
+	left: 584px;
+	top: 2675px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.ID2019-2020_Class {
+	left: 161px;
+	top: 2675px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Intent_and_Enti_ct_Class {
+	left: 580px;
+	top: 2255px;
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Automl__Data_Vi_Class {
+	left: 584px;
+	top: 2726px;
+	position: absolute;
+	overflow: visible;
+	width: 258px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Development_of_Interateai_s__P_Class {
+	left: 161px;
+	top: 2726px;
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Google_Dialogu_Class {
+	left: 580px;
+	top: 2321px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Data_collection_Data_Scrapping_Class {
+	left: 161px;
+	top: 2792px;
+	position: absolute;
+	overflow: visible;
+	width: 233px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Iterateai_cy_Class {
+	opacity: 0.34;
+	left: 637px;
+	top: 2214px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Maxgen_Technology_cz_Class {
+	opacity: 0.34;
+	left: 641px;
+	top: 2685px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Partycity_Class {
+	opacity: 0.34;
+	left: 277px;
+	top: 2683px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_13_c_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_13_c {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 580px;
+	top: 2471px;
+}
+.Rectangle_17_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_17 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 584px;
+	top: 2942px;
+}
+.Rectangle_14_Class {
+	fill: rgba(48,155,70,1);
+}
+.Rectangle_14 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	height: 76px;
+	left: 161px;
+	top: 2942px;
+}
+.RASA_c_Class {
+	left: 611px;
+	top: 2484px;
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.TF-IDF_Class {
+	left: 192px;
+	top: 2961px;
+	position: absolute;
+	overflow: visible;
+	width: 32px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_c_Class {
+	left: 685px;
+	top: 2484px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_da_Class {
+	left: 639px;
+	top: 2956px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Deep_Learning_Class {
+	left: 266px;
+	top: 2961px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_c_Class {
+	left: 755px;
+	top: 2484px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Pandas_da_Class {
+	left: 728px;
+	top: 2955px;
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Python_db_Class {
+	left: 381px;
+	top: 2961px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Google_Dialogue_Flow_Class {
+	left: 756px;
+	top: 2502px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.AUTO-ML_Class {
+	left: 810px;
+	top: 2954px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.RASA-NLU_de_Class {
+	left: 611px;
+	top: 2501px;
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Nodered_df_Class {
+	left: 685px;
+	top: 2502px;
+	position: absolute;
+	overflow: visible;
+	width: 44px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Flask_Class {
+	left: 639px;
+	top: 2974px;
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Arima_Class {
+	left: 728px;
+	top: 2973px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Keras_Class {
+	left: 810px;
+	top: 2974px;
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+}
+.Chatbots_dj_Class {
+	opacity: 0.05;
+	left: 576px;
+	top: 2159px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.AutoML_Class {
+	opacity: 0.05;
+	left: 582px;
+	top: 2629px;
+	position: absolute;
+	overflow: visible;
+	width: 138px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.Products_CompareAI__Class {
+	opacity: 0.05;
+	left: 157px;
+	top: 2630px;
+	position: absolute;
+	overflow: visible;
+	width: 411px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.Recommendation_dm_Class {
+	opacity: 0.05;
+	left: 578px;
+	top: 1702px;
+	position: absolute;
+	overflow: visible;
+	width: 344px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.Engine_Class {
+	opacity: 0.05;
+	left: 362px;
+	top: 1746px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.Engine_do_Class {
+	opacity: 0.05;
+	left: 783px;
+	top: 1744px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+.DL_Class {
+	opacity: 0.05;
+	left: 565px;
+	top: 1193px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 107px;
+	color: rgba(255,255,255,1);
+}
+.Group_7_Class {
+	position: absolute;
+	width: 540px;
+	height: 176px;
+	left: 156px;
+	top: 217px;
+	overflow: visible;
+}
+.__Hello_World_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Jr_Data_Scientist__Class {
+	left: 52px;
+	top: 143px;
+	position: absolute;
+	overflow: visible;
+	width: 209px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Im_Vinay_Chaudhari_Class {
+	left: 52px;
+	top: 56px;
+	position: absolute;
+	overflow: visible;
+	width: 489px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 49px;
+	color: rgba(255,255,255,1);
+}
+.Group_5_Class {
+	position: absolute;
+	width: 225px;
+	height: 126px;
+	left: 891px;
+	top: 138px;
+	overflow: visible;
+}
+.Rectangle_2_dw_Class {
+	fill: url(#Rectangle_2_dw);
+}
+.Rectangle_2_dw {
+	filter: drop-shadow(0px 24px 15px rgba(0, 0, 0, 0.459));
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 172.5px;
+	left: 8px;
+	top: 0px;
+}
+.ID2019-Present_Class {
+	left: 23px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+.Jr_Data_Scientist_dy_Class {
+	left: 23px;
+	top: 65px;
+	position: absolute;
+	overflow: visible;
+	width: 130px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+.CDI_Class {
+	opacity: 0.34;
+	left: 23px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 27px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_4_Class {
+	fill: rgba(220,255,35,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 8px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Group_16_Class {
+	position: absolute;
+	width: 225px;
+	height: 64px;
+	left: 116px;
+	top: 658px;
+	overflow: visible;
+}
+.Rectangle_15_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	height: 64px;
+	left: 137px;
+	top: 0px;
+}
+._Education_Class {
+	left: 0px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 33px;
+	color: rgba(255,255,255,1);
+}
+.Group_15_Class {
+	position: absolute;
+	width: 904px;
+	height: 99px;
+	left: 161px;
+	top: 848px;
+	overflow: visible;
+}
+.Group_12_Class {
+	position: absolute;
+	width: 264px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	height: 99px;
+	left: 205px;
+	top: 0px;
+}
+.Rectangle_2_d_Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2_d {
+	filter: drop-shadow(5px 0px 26px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	height: 177px;
+	left: 4px;
+	top: 0px;
+}
+.ID2018_Pune_University__India__Class {
+	left: 19px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.Grade__Class {
+	left: 210px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.ID78__Class {
+	left: 210px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(113,100,100,1);
+}
+.Bachler_of_Engineering__Inform_Class {
+	left: 19px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_12_ec_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_12_ec {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Group_13_Class {
+	position: absolute;
+	width: 264px;
+	height: 99px;
+	left: 321px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_ee_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_16_ee {
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	height: 99px;
+	left: 205px;
+	top: 0px;
+}
+.Rectangle_2_ef_Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2_ef {
+	filter: drop-shadow(5px 0px 26px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	height: 177px;
+	left: 4px;
+	top: 0px;
+}
+.ID2014_Nasik_Board__India__Class {
+	left: 19px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.Grade__eh_Class {
+	left: 210px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.ID81__Class {
+	left: 210px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(113,100,100,1);
+}
+.ID12th_Science_Physics__Chemis_Class {
+	left: 19px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 174px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_12_ek_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_12_ek {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Group_14_Class {
+	position: absolute;
+	width: 264px;
+	height: 99px;
+	left: 640px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_16_em_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_16_em {
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	height: 99px;
+	left: 205px;
+	top: 0px;
+}
+.Rectangle_2_en_Class {
+	fill: rgba(68,63,63,1);
+}
+.Rectangle_2_en {
+	filter: drop-shadow(5px 0px 26px rgba(0, 0, 0, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	height: 177px;
+	left: 4px;
+	top: 0px;
+}
+.ID2012_Nasik_Board__India__Class {
+	left: 19px;
+	top: 9px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.Grade__ep_Class {
+	left: 210px;
+	top: 14px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.ID86__Class {
+	left: 210px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(113,100,100,1);
+}
+.ID10th_SGS_High_School_Class {
+	left: 19px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 8px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_12_es_Class {
+	fill: rgba(222,255,0,1);
+}
+.Rectangle_12_es {
+	position: absolute;
+	overflow: visible;
+	width: 7px;
+	height: 99px;
+	left: 0px;
+	top: 0px;
+}
+.Data_collection_EDA_Data_clean_et_Class {
+	left: 596px;
+	top: 2785px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Developing_applied_AUTOML_reay_Class {
+	left: 728px;
+	top: 2785px;
+	position: absolute;
+	overflow: visible;
+	width: 239px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_18_ew_Class {
+	fill: url(#Rectangle_18_ew);
+}
+.Rectangle_18_ew {
+	filter: drop-shadow(0px 30px 26px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 781px;
+	height: 335px;
+	left: 257px;
+	top: 3458px;
+}
+.Rectangle_7_ex_Class {
+	fill: rgba(0,8,255,1);
+}
+.Rectangle_7_ex {
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 64px;
+	left: 456px;
+	top: 3282px;
+}
+.Why_should_you_hire_me__Class {
+	left: 112px;
+	top: 3288px;
+	position: absolute;
+	overflow: visible;
+	width: 418px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Apercu;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 33px;
+	color: rgba(255,255,255,1);
+}
+.I_am_one_of_those_who_prefer_e_Class {
+	left: 399px;
+	top: 3556px;
+	position: absolute;
+	overflow: visible;
+	width: 395px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+.Email___Vinaychaudhari1996gmai_Class {
+	left: 451px;
+	top: 3884px;
+	position: absolute;
+	overflow: visible;
+	width: 325px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+.vinaychaudhari1996gmailcom___Class {
+	left: 209px;
+	top: 420px;
+	position: absolute;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(190,158,255,1);
+}
